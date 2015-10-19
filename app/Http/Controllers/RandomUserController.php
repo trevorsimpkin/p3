@@ -30,7 +30,7 @@ class RandomUserController extends Controller
         array_push($users, $faker->name);
     }
 
-    return view('RandomUser.postIndex')->with (['users'=>$users] );
+    return view('RandomUser.postindex')->with (['users'=>$users] );
     }
 
 

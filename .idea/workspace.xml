@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30be64ef-eec2-41be-ad93-17f21d515d7b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php" />
     </list>
     <ignored path="p3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoremController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoremController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68451244">
+            <state vertical-scroll-proportion="-14.916667">
               <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#39#67#0#PHP" expanded="true" />
@@ -47,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomUserController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RandomUserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.8891013">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#39#67#0#PHP" expanded="true" />
               </folding>
@@ -145,8 +144,8 @@
         <option value="$PROJECT_DIR$/resources/views/LoremIpsum/postindex.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/RandomUser/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/RandomUser/postindex.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LoremController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php" />
       </list>
     </option>
   </component>
@@ -654,20 +653,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state vertical-scroll-proportion="-14.916667">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="e#39#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoremController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RandomUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68451244">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8891013">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#39#67#0#PHP" expanded="true" />
           </folding>
