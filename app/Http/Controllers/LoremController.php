@@ -26,7 +26,7 @@ class LoremController extends Controller
         $faker = \Faker\Factory::create();
         $text = $faker->paragraphs($nb = $paragraphs);
 
-        return view('LoremIpsum.postIndex')->with (['text'=>$text] );
+        return view('LoremIpsum.postindex')->with (['text'=>$text] );
     }
 
 }
