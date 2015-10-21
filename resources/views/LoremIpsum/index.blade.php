@@ -12,6 +12,7 @@
         <li><a href="/">Home</a></li>
         <li class="active"><a href="#">Lorem Ipsum Generator</a></li>
         <li><a href="/randomuser">Random User Generator</a></li>
+        <li><a href = '/cat'>Cat Image Generator</a><</li>
     @stop
     <div class="jumbotron">
         <h1>Lorem Ipsum Generator</h1>

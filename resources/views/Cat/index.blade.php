@@ -1,7 +1,7 @@
 @extends('layouts.master');
 
 @section('title')
-    Lorem Ipsum Generator
+    Cat Image Generator
 @stop
 
 @section('head')
@@ -10,16 +10,19 @@
 @section('content')
 @section('nav')
     <li><a href="/">Home</a></li>
-    <li class="active"><a href="#">Lorem Ipsum Generator</a></li>
+    <li><a href="/loremipsum">Lorem Ipsum Generator</a></li>
     <li><a href="/randomuser">Random User Generator</a></li>
-    <li><a href = '/cat'>Cat Image Generator</a><</li>
+    <li class='active'><a href = #>Cat Image Generator</a><</li>
 @stop
 <div class="jumbotron">
-    <h1>Lorem Ipsum Generator</h1>
-    <form method ='POST' action='/loremipsum'>
+    <h1>Cat Image Generator!</h1>
+    <form method ='POST' action='/cat'>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
-        <label for="paragraphs">Paragraphs</label>
-        <input maxlength="2" name="paragraphs" type="text" value='{{old('paragraphs')}}' id="paragraphs"> (Max: 99)
+        <label for="width">Width: </label>
+        <input maxlength="3" name="width" type="text" value='{{old('width')}}' id="width"> (10-800)
+        <br>
+        <label for="height">Height: </label>
+        <input maxlength="3" name="height" type="text" value='{{old('height')}}' id="height"> (10-800)
         @if(count(@errors)>0)
             <ul>
                 @foreach($errors->all() as $error)
@@ -29,8 +32,5 @@
         @endif
         <input type="submit" value="Generate!">
     </form>
-    @foreach ($text as $texts)
-        <p>{{ $texts}}</p>
-    @endforeach
 </div>
 @stop

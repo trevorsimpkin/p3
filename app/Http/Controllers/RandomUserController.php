@@ -20,7 +20,7 @@ class RandomUserController extends Controller
     public function postIndex(Request $request)
     {
     $this->validate($request, [
-        'numberOfUsers' => 'required|numeric'
+        'numberOfUsers' => 'required|numeric|min:0'
     ]);
     $numberOfUsers = $request->input('numberOfUsers');
     $isEmail = $request->input('email');
@@ -29,24 +29,34 @@ class RandomUserController extends Controller
     $isPassword = $request->input('password');
     $faker = \Faker\Factory::create();
     $users = array();
-        $email = array();
-    for ($i=0; $i<$numberOfUsers; $i++)
-    {
+    $emails = array();
+    $phones = array();
+    $usernames = array();
+    $passwords = array();
+    for ($i=0; $i<$numberOfUsers; $i++) {
         array_push($users, $faker->name);
-        if ($isEmail) {
-        array_push($users, $faker->email);
-        }
-        if ($isPhone) {
-            array_push($users, $faker->phoneNumber);
-        }
-        if ($isUsername) {
-            array_push($users, $faker->userName);
-        }
-        if ($isPassword) {
-            array_push($users, $faker->password);
+    }
+    if ($isEmail) {
+        for ($i=0; $i<$numberOfUsers; $i++) {
+            array_push($emails, $faker->email);
         }
     }
-    return view('RandomUser.postindex')->with (['users'=>$users]);
+    if ($isPhone) {
+        for ($i=0; $i<$numberOfUsers; $i++) {
+            array_push($phones, $faker->phoneNumber);
+        }
+    }
+    if ($isUsername) {
+        for ($i=0; $i<$numberOfUsers; $i++) {
+            array_push($usernames, $faker->userName);
+        }
+    }
+    if ($isPassword) {
+        for ($i=0; $i<$numberOfUsers; $i++) {
+            array_push($passwords, $faker->password);
+        }
+    }
+        return view('RandomUser.postindex')->with (['users'=>$users, 'emails'=>$emails, 'phones'=>$phones, 'usernames'=>$usernames, 'passwords'=>$passwords]);
     }
 
 

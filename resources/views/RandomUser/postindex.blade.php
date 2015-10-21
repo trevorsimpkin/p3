@@ -12,6 +12,7 @@
     <li><a href="/">Home</a></li>
     <li><a href="/loremipsum">Lorem Ipsum Generator</a></li>
     <li class="active"><a href="#">Random User Generator</a></li>
+    <li><a href = '/cat'>Cat Image Generator</a><</li>
 @stop
 <div class="jumbotron">
     <h1>Random User Generator</h1>
@@ -41,8 +42,20 @@
         @endif
         <input type="submit" value="Generate!">
     </form>
-    @foreach ($users as $user)
-        {{ $user}}<br>
-    @endforeach
+    @for ($x = 0; $x < count($users); $x++)
+        <h4>{{ $users[$x]}}</h4>
+        @if(array_key_exists(0, $emails))
+            {{$emails[$x]}}<br>
+        @endif
+        @if(array_key_exists(0, $phones))
+            {{$phones[$x]}}<br>
+        @endif
+        @if(array_key_exists(0, $usernames))
+            {{$usernames[$x]}}<br>
+        @endif
+        @if(array_key_exists(0, $passwords))
+            {{$passwords[$x]}}<br>
+        @endif
+    @endfor
 </div>
 @stop

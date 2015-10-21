@@ -20,3 +20,6 @@ Route::post('/loremipsum','LoremController@postIndex');
 
 Route::get('/randomuser','RandomUserController@getIndex');
 Route::post('/randomuser','RandomUserController@postIndex');
+
+Route::get('/cat','CatController@getIndex');
+Route::post('/cat','CatController@postIndex');

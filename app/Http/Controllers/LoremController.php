@@ -20,7 +20,7 @@ class LoremController extends Controller
     public function postIndex(Request $request)
     {
         $this->validate($request, [
-            'paragraphs' => 'required|numeric'
+            'paragraphs' => 'required|numeric|min:0'
         ]);
         $paragraphs = $request->input('paragraphs');
         $faker = \Faker\Factory::create();
