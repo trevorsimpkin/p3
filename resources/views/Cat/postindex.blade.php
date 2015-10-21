@@ -8,12 +8,6 @@
 @stop
 
 @section('content')
-@section('nav')
-    <li><a href="/">Home</a></li>
-    <li><a href="/loremipsum">Lorem Ipsum Generator</a></li>
-    <li><a href="/randomuser">Random User Generator</a></li>
-    <li class='active'><a href = #>Cat Image Generator</a><</li>
-@stop
 <div class="jumbotron">
     <h1>Cat Image Generator!</h1>
     <form method ='POST' action='/cat'>

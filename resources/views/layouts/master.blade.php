@@ -39,7 +39,10 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                @yield('nav')
+                    <li class="{{Request::is('/') ? 'active' :''}}"><a href="/">Home</a></li>
+                    <li class="{{Request::is('loremipsum') ? 'active' :''}}"><a href="/loremipsum">Lorem Ipsum Generator</a></li>
+                    <li class="{{Request::is('randomuser') ? 'active' :''}}"><a href="/randomuser">Random User Generator</a></li>
+                    <li class="{{Request::is('cat') ? 'active' :''}}"><a href = '/cat'>Cat Image Generator</a></li>
             </ul>
         </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
