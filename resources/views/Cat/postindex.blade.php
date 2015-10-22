@@ -13,10 +13,10 @@
     <form method ='POST' action='/cat'>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
         <label for="width">Width: </label>
-        <input maxlength="3" name="width" type="text" value='{{old('width')}}' id="width"> (10-800)
+        <input maxlength="3" name="width" type="text" value='{{old('width')}}' id="width"> (50-800)
         <br>
         <label for="height">Height: </label>
-        <input maxlength="3" name="height" type="text" value='{{old('height')}}' id="height"> (10-800)
+        <input maxlength="3" name="height" type="text" value='{{old('height')}}' id="height"> (50-800)
         @if(count(@errors)>0)
             <ul>
                 @foreach($errors->all() as $error)

@@ -20,8 +20,8 @@ class CatController extends Controller
     public function postIndex(Request $request)
     {
         $this->validate($request, [
-            'width' => 'required|numeric|min:10|max:800',
-            'height' => 'required|numeric|min:10|max:800'
+            'width' => 'required|numeric|min:50|max:800',
+            'height' => 'required|numeric|min:50|max:800'
         ]);
         $width = $request->input('width');
         $height = $request->input('height');
