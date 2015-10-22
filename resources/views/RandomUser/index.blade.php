@@ -16,16 +16,16 @@
         <input maxlength="2" name="numberOfUsers" type="text" value='{{old('numberOfUsers')}}' id="numberOfUsers"> (Max: 99)
         <br>
         <label for='email'>Email Address</label>
-        <input name='email' type='checkbox'id='email'>
+        <input name='email' type='checkbox' id='email'>
         <br>
         <label for='phone'>Phone Number</label>
-        <input name='phone' type='checkbox'id='phone'>
+        <input name='phone' type='checkbox' id='phone'>
         <br>
         <label for='username'>User Name</label>
-        <input name='username' type='checkbox'id='username'>
+        <input name='username' type='checkbox' id='username'>
         <br>
         <label for='password'>Password</label>
-        <input name='password' type='checkbox'id='password'>
+        <input name='password' type='checkbox' id='password'>
         <br>
         @if(count(@errors)>0)
             <ul>
