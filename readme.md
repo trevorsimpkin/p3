@@ -6,7 +6,7 @@
 ## Description
 A web application that contains tools for a developer to use. Generates designated amount of lorem ipsum text, designated amount of random users, and a random cat image of desired size
 ## Demo
-http://screencast.com/t/iHAOZPHcTX
+http://screencast.com/t/jiv3M3UPOxNJ
 
 ## Details for teaching team
 The random cat image is generated using fzaninotto/faker package, but I think it implements the lorempixel site. I included both in my outside code.
