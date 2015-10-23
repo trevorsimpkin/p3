@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30be64ef-eec2-41be-ad93-17f21d515d7b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CatController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CatController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Cat/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Cat/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Cat/postindex.blade.php" afterPath="$PROJECT_DIR$/resources/views/Cat/postindex.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="p3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postindex.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="postindex.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Cat/postindex.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6309751">
+            <state vertical-scroll-proportion="-13.75">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40384614">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -147,6 +154,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CatController.php" />
         <option value="$PROJECT_DIR$/resources/views/Cat/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Cat/postindex.blade.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -797,8 +805,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Cat/postindex.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6309751">
+        <state vertical-scroll-proportion="-13.75">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40384614">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
         </state>
       </provider>
