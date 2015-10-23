@@ -15,4 +15,4 @@ The random cat image is generated using fzaninotto/faker package, but I think it
 * Bootstrap: http://getbootstrap.com/
 * Bootstrap Theme: http://getbootstrap.com/examples/offcanvas/
 * fzaninotto/faker: https://packagist.org/packages/fzaninotto/faker
-* lorempixel Random cat image: 'http://lorempixel.com/800/600/cats/'
+* lorempixel Random cat image: 'http://lorempixel.com/cats'
