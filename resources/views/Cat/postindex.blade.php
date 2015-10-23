@@ -10,6 +10,8 @@
 @section('content')
 <div class="jumbotron">
     <h1>Cat Image Generator!</h1>
+    <p>This generates a random image of a cat.</p>
+    <p>Please input your desired picture height and width in pixels. </p>
     <form method ='POST' action='/cat'>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
         <label for="width">Width: </label>

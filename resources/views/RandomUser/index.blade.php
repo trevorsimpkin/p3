@@ -10,9 +10,10 @@
 @section('content')
 <div class="jumbotron">
     <h1>Random User Generator</h1>
+    <p>Fill in desired number of users and check any extra options.</p>
     <form method ='POST' action='/randomuser'>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
-        <label for="numberOfUsers">Number of Users</label>
+        <label for="numberOfUsers">How many users would you like? </label>
         <input maxlength="2" name="numberOfUsers" type="text" value='{{old('numberOfUsers')}}' id="numberOfUsers"> (Max: 99)
         <br>
         <label for='email'>Email Address</label>

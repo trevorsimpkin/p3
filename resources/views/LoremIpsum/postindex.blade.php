@@ -10,9 +10,10 @@
 @section('content')
 <div class="jumbotron">
     <h1>Lorem Ipsum Generator</h1>
+    <p>Fill in the number of paragraphs that you would like to be generated. </p>
     <form method ='POST' action='/loremipsum'>
         <input type='hidden' name='_token' value='{{csrf_token()}}'>
-        <label for="paragraphs">Paragraphs</label>
+        <label for="paragraphs">How many paragraphs would you like? </label>
         <input maxlength="2" name="paragraphs" type="text" value='{{old('paragraphs')}}' id="paragraphs"> (Max: 99)
         @if(count(@errors)>0)
             <ul>
